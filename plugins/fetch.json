@@ -1,0 +1,44 @@
+{
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@~1.1.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "jpush-phonegap-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "jpush-phonegap-plugin"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_KEY": "b4822f90e48cee769b983902"
+    }
+  },
+  "cordova-plugin-jcore": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-jcore"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1.3.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

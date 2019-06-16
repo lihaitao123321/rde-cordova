@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.crong.radiant" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="JPushPlugin">
+        <param name="android-package" value="cn.jiguang.cordova.push.JPushPlugin" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>瑞得恩</name>
+    <description>
+        电力控制平台app
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        李海涛（dolphin）
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="baidumap://*/*" />
+    <allow-intent href="bdapp://*/*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/icon/android/AndroidIcon40x40.png" />
+    <icon density="mdpi" src="res/icon/android/AndroidIcon57x57.png" />
+    <icon density="hdpi" src="res/icon/android/AndroidIcon80x80.png" />
+    <icon density="xhdpi" src="res/icon/android/AndroidIcon87x87.png" />
+    <icon density="xxhdpi" src="res/icon/android/AndroidIcon120x120.png" />
+    <icon density="xxxhdpi" src="res/icon/android/AndroidIcon180x180.png" />
+    <splash density="land-hdpi" src="res/screen/android/start.png" />
+    <splash density="land-ldpi" src="res/screen/android/start.png" />
+    <splash density="land-mdpi" src="res/screen/android/start.png" />
+    <splash density="land-xhdpi" src="res/screen/android/start.png" />
+    <splash density="port-hdpi" src="res/screen/android/start.png" />
+    <splash density="port-ldpi" src="res/screen/android/start.png" />
+    <splash density="port-mdpi" src="res/screen/android/start.png" />
+    <splash density="port-xhdpi" src="res/screen/android/start.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+</widget>

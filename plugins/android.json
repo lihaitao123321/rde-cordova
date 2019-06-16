@@ -1,0 +1,29 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "jpush-phonegap-plugin": {
+      "APP_KEY": "b4822f90e48cee769b983902",
+      "PACKAGE_NAME": "com.crong.radiant"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.crong.radiant"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.crong.radiant"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.crong.radiant"
+    },
+    "cordova-plugin-jcore": {
+      "PACKAGE_NAME": "com.crong.radiant"
+    }
+  }
+}
